@@ -1,0 +1,32 @@
+<f:layout name="Default" />
+<f:section name="body">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <f:format.raw>{mainMenu}</f:format.raw>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Metasa</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content">
+        <!-- TYPOSEARCH_begin -->
+        <f:render partial="{templateName}" arguments="{_all}"/>
+        <!-- TYPOSEARCH_end -->
+    </section>
+
+    <footer>
+        <div class="green-border"></div>
+        <div class="container">
+            <div class="headline">
+                <h3>Metasa GmbH | Einfach alles möglich.</h3>
+            </div>
+            <div class="footer-menu">
+                <f:format.raw>{footerMenu}</f:format.raw>
+            </div>
+        </div>
+    </footer>
+</f:section>
+

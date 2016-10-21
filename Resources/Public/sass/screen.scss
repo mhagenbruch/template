@@ -1,0 +1,104 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+$green: #006B51;
+$lightGreen: #C9D1CA;
+a, body, h1, h2, input, ol, select, td, textarea, th, ul, p {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+}
+
+/* ### SLIDER ### */
+.bx-viewport, .bx-wrapper {
+  border:none !important;
+}
+
+.navbar-default {
+  border-color: #fff;
+  background-color: #fff;
+  border-bottom: 3px solid $green;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #fff;
+  background-color: $green;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $green;
+}
+
+footer {
+  padding-top: 20px;
+  background-color: $lightGreen;
+  height: 165px;
+  .green-border {
+    height: 3px;
+    background-color: $green;
+  }
+  .headline {
+    text-align: center;
+    color: $green;
+    h3 {
+      font-size: 29px;
+      margin: 40px auto 0 auto;
+    }
+  }
+  .footer-menu {
+    margin-top: 25px;
+    text-align: center;
+  }
+  a,span {
+    color: $green;
+    font-size: 18px;
+  }
+}
+
+.product {
+  margin-bottom: 20px;
+  .top, .bottom {
+    background-color: $green;
+    h2 {
+      margin: 0;
+      font-size: 28px;
+      color: #fff;
+      text-align: center;
+      padding: 13px 0 22px 0;
+    }
+  }
+  .content {
+    background-color: $lightGreen;
+    padding: 16px 0 15px 20px;
+    font-size: 15px;
+    a {
+      background-color: $green;
+      color: #fff;
+      display: block;
+      margin: auto;
+      width: 204px;
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px 0 10px 0;
+      font-size: 16px;
+    }
+  }
+}
+.statement {
+  .green {
+    background-color: $green;
+    color: #fff;
+    font-size: 19px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    display:none;
+  }
+}
+@media (min-width: 1650px) {
+  .container { max-width: 1650px; }
+}

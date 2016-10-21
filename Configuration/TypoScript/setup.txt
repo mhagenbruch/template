@@ -1,0 +1,17 @@
+# PAGE
+
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Configuration/TypoScript/Plugins/plugins.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Configuration/TypoScript/Page/page.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Configuration/TypoScript/GridLayouts/grids.ts">
+
+# Navigation:
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Resources/Private/TypoScript/lib.navigation/lib.navigation.main.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Resources/Private/TypoScript/lib.navigation/lib.navigation.footer.ts">
+
+# Content:
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Resources/Private/TypoScript/lib.content/lib.content.main.ts">
+
+# Configuration:
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:template/Configuration/TypoScript/Config/config.ts">
+
+# Page-Settings:

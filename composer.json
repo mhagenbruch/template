@@ -1,0 +1,11 @@
+{
+    "name": "maikhagenbruch/template",
+    "description": "Ext for completely TYPO3 setup",
+    "authors": [
+        {
+            "name": "Maik Hagenbruch",
+            "email": "maik@hagenbru.ch"
+        }
+    ],
+    "require": {}
+}
