@@ -3,9 +3,6 @@
     "type": "typo3-cms-extension",
     "description": "Ext for completely TYPO3 setup",
     "version": "0.0.1",
-    "licence": [
-    		"GPL-2.0+"
-    ],
     "authors": [
         {
             "name": "Maik Hagenbruch",
